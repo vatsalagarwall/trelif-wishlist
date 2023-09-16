@@ -1,5 +1,3 @@
-import sofa from './sofa-img.png'
-
 export const data = [
     {
         "id": 1,
