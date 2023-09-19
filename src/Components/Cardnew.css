@@ -1,0 +1,95 @@
+.cards {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 295px;
+  margin: 10px;
+  background-color: #eeeeee; /* Set the background color for the whole card */
+  border: 0px solid #ddd;
+}
+
+.card-img-top {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-title-price {
+  display: flex;
+  align-items: center;
+  font-family: "Playfair Display", serif;
+  margin-bottom: -20px;
+  margin-top: -10px;
+}
+
+.card-title {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 132%;
+  margin-right: 40px; /* Add margin between title and price */
+}
+
+.card-price {
+  color: var(--Secondary, #3e3636);
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 132%; /* 18.48px */
+}
+.add-to-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+}
+
+.btn {
+  color: #a08862;
+  margin: -25px 0 -30px 0; /* Adjust margins */
+}
+
+@media (max-width: 398px) {
+  .cards {
+    justify-content: center;
+  }
+
+  .card {
+    width: calc(50% - 20px);
+    margin: 10px;
+  }
+
+  .card-title-price {
+    display: flex;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    margin-bottom: -20px;
+  }
+
+  .card-title {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .card-price {
+    color: var(--Secondary, #3e3636);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal; /* 18.48px */
+    font-style: normal;
+  }
+
+  .btn {
+    color: #a08862;
+    margin: -20px 0; /* Adjust margins */
+  }
+}
