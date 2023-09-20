@@ -10,6 +10,7 @@ function Navbar() {
           <div className="navbar-new">
             <button className="navbar-button">
               <img src={arrow} className="arrow-img" alt="Arrow" />
+              {/* add logo */}
             </button>
             <span className="navbar-myWishlist">
               <span className="navbar-my">
