@@ -22,6 +22,7 @@ function Card() {
             <hr />
             <div className="add-to-cart">
               <button className="btn">Add to Cart</button>
+              {/* add image */}
             </div>
           </div>
         </div>
